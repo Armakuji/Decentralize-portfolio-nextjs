@@ -9,7 +9,7 @@ import AboutSection from "components/AboutSection/AboutSection";
 import ExperienceSection from "components/ExperienceSection/ExperienceSection";
 import ContractSection from "components/ContractSection/ContractSection";
 
-const LandingPageWrapper = styled.div`
+const HomePageWrapper = styled.div`
   -webkit-font-smoothing: auto;
   font-family: sans-serif;
 
@@ -18,7 +18,7 @@ const LandingPageWrapper = styled.div`
   }
 
   .fade-in-section.is-active {
-    animation: fade-in-bottom 1.5s;
+    animation: fade-in-bottom 1.2s;
   }
 
   @keyframes fade-in-bottom {
@@ -49,14 +49,14 @@ const Home: NextPage = () => {
     window.addEventListener("resize", handleResize);
   }, []);
   return (
-    <LandingPageWrapper>
+    <HomePageWrapper>
       <NavBar setOpenMenu={setOpenMenu} />
       <MenuSlider openMenu={openMenu} setOpenMenu={setOpenMenu} />
       <IntroSection />
-      {/* <AboutSection />
+      <AboutSection />
       <ExperienceSection />
-      <ContractSection /> */}
-    </LandingPageWrapper>
+      <ContractSection />
+    </HomePageWrapper>
   );
 };
 

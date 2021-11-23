@@ -59,7 +59,23 @@ export const Content = styled.div`
     color: white;
   }
 
-  @media (max-width: 767px) {
+  @media (max-width: 1030px) {
+    text-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    max-width: 560px;
+
+    h1 {
+      padding-bottom: 10px;
+    }
+
+    h2 {
+      padding-bottom: 10px;
+    }
+  }
+
+  @media (max-width: 780px) {
     text-align: center;
     -webkit-box-align: center;
     align-items: center;
@@ -109,7 +125,11 @@ export const IconWrapper = styled.div`
   display: flex;
   justify-content: center;
 
-  @media (max-width: 767px) {
+  @media (max-width: 1030px) {
+    margin-top: 5rem;
+  }
+
+  @media (max-width: 767) {
     margin-top: 3rem;
   }
 `;
@@ -136,7 +156,7 @@ export const LeftCol = styled(Col)`
   flex: 0 0 100%;
   max-width: 100%;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1030px) {
     display: block;
     flex: 0 0 58.33333333%;
     max-width: 58.33333333%;
@@ -148,7 +168,7 @@ export const RightCol = styled(Col)`
   flex: 0 0 100%;
   max-width: 100%;
 
-  @media (min-width: 768px) {
+  @media (min-width: 1030px) {
     display: block;
     flex: 0 0 41.66666667%;
     max-width: 41.66666667%;

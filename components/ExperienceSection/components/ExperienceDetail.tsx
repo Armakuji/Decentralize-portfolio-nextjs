@@ -2,7 +2,7 @@ import React, { FC } from "react";
 import styled from "styled-components";
 import FadeInContainer from "components/FadeInContainer/FadeInContainer";
 import { ExperienceDetailType } from "utils/ExperienceList";
-import { ReactComponent as RightArrow } from "assets/svg/right_arrow.svg";
+import RightArrow from "assets/svg/right_arrow.svg";
 import { IconSpace } from "components/GlobalStyleComponent";
 
 const ExperienceDetailContainer = styled.div`

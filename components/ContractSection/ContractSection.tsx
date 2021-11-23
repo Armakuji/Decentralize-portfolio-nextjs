@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { ReactComponent as MailIcon } from "assets/svg/mail.svg";
-import { ReactComponent as GithubIcon } from "assets/svg/github.svg";
-import { ReactComponent as LinkinIcon } from "assets/svg/linkin.svg";
-import { ReactComponent as TwitterIcon } from "assets/svg/twitter.svg";
+import MailIcon from "assets/svg/mail.svg";
+import GithubIcon from "assets/svg/github.svg";
+import LinkinIcon from "assets/svg/linkin.svg";
+import TwitterIcon from "assets/svg/twitter.svg";
 import FadeInContainer from "components/FadeInContainer/FadeInContainer";
 import { Row, Col, Card, CardBody } from "components/GlobalStyleComponent";
 
@@ -27,7 +27,7 @@ const ContractSectionContainer = styled.div`
 `;
 
 const ContractDetail = styled.div`
-  padding-top: 1.5em;
+  padding-top: 0.5em;
 
   display: flex;
   justify-content: center;

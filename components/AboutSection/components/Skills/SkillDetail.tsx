@@ -1,7 +1,7 @@
 import React, { FC } from "react";
 import styled from "styled-components";
 import FadeInContainer from "components/FadeInContainer/FadeInContainer";
-import { ReactComponent as RightArrow } from "assets/svg/right_arrow.svg";
+import RightArrow from "assets/svg/right_arrow.svg";
 import { IconSpace, Divider, Row, Col } from "components/GlobalStyleComponent";
 
 interface SkillDetailProps {

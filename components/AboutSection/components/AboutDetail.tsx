@@ -3,8 +3,6 @@ import FadeInContainer from "components/FadeInContainer/FadeInContainer";
 import styled from "styled-components";
 import { Row, Col } from "components/GlobalStyleComponent";
 
-import ProfileImage from "assets/images/profile_image.jpg";
-
 const AboutDetailContainer = styled.div`
   display: grid;
   justify-content: center;
@@ -34,7 +32,7 @@ const AboutDetailContainer = styled.div`
 `;
 
 const ProfileImageContainer = styled.div`
-  background-image: url(${ProfileImage});
+  background-image: url("/profile_image.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
