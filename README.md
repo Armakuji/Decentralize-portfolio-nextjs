@@ -1,19 +1,35 @@
-This portfolio app used nextjs because it's a static website. It's suitable with nextjs more than create-react-app.
+# Portfolio with nextjs
+
+## Demo
+
+https://nitipon.eth.link/
 
 ## Getting Started
 
-First, run the development server:
+This portfolio app used nextjs because it's a static website. It's suitable with nextjs ( Server-side Rendering ) more than create-react-app.
+
+This portfolio is used to learn to build and host decentralised React App on IPFS by using [Fleek](https://fleek.co/) to host and using [Ethereum Name Service](https://ens.domains/) to provide decentralised naming.
+
+### Clone Project
+
+```
+$ git clone https://github.com/Armakuji/portfolio-nextjs.git
+```
+
+### Installation
+
+Install npm dependencies
+
+```
+$ npm install
+```
+
+Run Project
 
 ```bash
-npm run dev
+$ npm run dev
 # or
-yarn dev
+$ yarn dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

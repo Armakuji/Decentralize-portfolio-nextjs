@@ -97,15 +97,15 @@ const Experience = () => {
             <div className="about">
               <div>
                 &ldquo; My name is{" "}
-                <label className="bold sub-title">Nitipon Chingthongchai</label>
-                . I like to think, analyze, and solve problems. So I really like
-                coding.
+                <label className="bold sub-title">Nitipon Chingthongchai</label>{" "}
+                I&apos;m a software engineer. I like to analyze, solve problems,
+                and research new technologies. So I really like coding.
               </div>
               <br />
               <div>
-                I like to create beautiful things on the Web. And now I&apos;m
-                studying Ethereum smart contracts, Blockchain and Decentralized
-                finance. &rdquo;
+                I like to create beautiful things on the Web. And I&apos;m
+                currently learning about Ethereum smart contracts, Blockchain,
+                and Decentralized Finance. &rdquo;
               </div>
             </div>
           </FadeInContainer>

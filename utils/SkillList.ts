@@ -5,6 +5,7 @@ export const languageList = [
   "CSS",
   "Java",
   "PHP",
+  "Solidity",
 ];
 
 export const libraryList = [
@@ -18,8 +19,17 @@ export const libraryList = [
   "styled-component",
   "Laravel",
   "Web3",
+  "Openzeppelin",
 ];
 
 export const databaseList = ["MongoDB", "MySQL"];
 
-export const toolList = ["Git", "VSCode", "Firebase", "IntelliJ", "Xampp"];
+export const toolList = [
+  "Git",
+  "VSCode",
+  "Firebase",
+  "IntelliJ",
+  "Xampp",
+  "Truffle",
+  "Ganache",
+];

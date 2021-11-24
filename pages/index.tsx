@@ -1,4 +1,5 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import styled from "styled-components";
 import { useEffect, useState } from "react";
 
@@ -18,7 +19,7 @@ const HomePageWrapper = styled.div`
   }
 
   .fade-in-section.is-active {
-    animation: fade-in-bottom 1.2s;
+    animation: fade-in-bottom 1.25s;
   }
 
   @keyframes fade-in-bottom {
@@ -50,6 +51,9 @@ const Home: NextPage = () => {
   }, []);
   return (
     <HomePageWrapper>
+      <Head>
+        <link rel="shortcut icon" href="/NE.svg" />
+      </Head>
       <NavBar setOpenMenu={setOpenMenu} />
       <MenuSlider openMenu={openMenu} setOpenMenu={setOpenMenu} />
       <IntroSection />
