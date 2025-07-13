@@ -5,20 +5,18 @@ import NavbarIcon from "assets/svg/navbar_icon.svg";
 import Hamburgur from "assets/svg/hamburgur.svg";
 import { Row, Col } from "components/GlobalStyleComponent";
 
-interface NavBarProps {
-  isTop: boolean;
-  fontColor: string;
-  backgroundColor: string;
-}
-
-const NavBarWrapper = styled.div<NavBarProps>`
+const NavBarWrapper = styled.div<{
+  $isTop: boolean;
+  $fontColor: string;
+  $backgroundColor: string;
+}>`
   width: 100%;
-  background: ${(props) => props.backgroundColor};
-  color: ${(props) => props.fontColor};
+  background: ${(props) => props.$backgroundColor};
+  color: ${(props) => props.$fontColor};
   backdrop-filter: blur(1px);
   transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
   box-shadow: ${(props) =>
-    props.isTop
+    props.$isTop
       ? "unset;"
       : "0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);"}
 
@@ -26,12 +24,12 @@ const NavBarWrapper = styled.div<NavBarProps>`
   padding-left: 4vw;
   position: fixed;
   z-index: 999;
-    
+
 
   h1 {
     margin-bottom: 0;
     font-size: 1.6em;
-    color: ${(props) => props.fontColor};
+    color: ${(props) => props.$fontColor};
   }
 
   .nav {
@@ -51,9 +49,9 @@ const NavBarWrapper = styled.div<NavBarProps>`
       cursor: pointer;
     }
   }
-  
+
   a{
-      color: ${(props) => props.fontColor};
+      color: ${(props) => props.$fontColor};
     }
 
   .sub-menu:hover {
@@ -78,12 +76,12 @@ const NavBarWrapper = styled.div<NavBarProps>`
 `;
 
 interface IconProps {
-  color: string;
+  $color: string;
 }
 
 const HamburgurColor = styled(Hamburgur)<IconProps>`
   path {
-    stroke: ${(props) => props.color};
+    stroke: ${(props) => props.$color};
   }
 `;
 
@@ -93,8 +91,8 @@ const NavBarIconColor = styled(NavbarIcon)<IconProps>`
   margin-top: 0.5em;
 
   path {
-    stroke: ${(props) => props.color};
-    fill: ${(props) => props.color};
+    stroke: ${(props) => props.$color};
+    fill: ${(props) => props.$color};
   }
 `;
 
@@ -139,14 +137,14 @@ const NavBar: FC<MenuSliderProps> = (props) => {
 
   return (
     <NavBarWrapper
-      isTop={isTop}
-      fontColor={fontColor}
-      backgroundColor={backgroundColor}
+      $isTop={isTop}
+      $fontColor={fontColor}
+      $backgroundColor={backgroundColor}
     >
       <NavBarRow>
         <Col>
           <Link to="intro" spy={true} smooth={true} duration={scrollDuration}>
-            <NavBarIconColor color={fontColor} />
+            <NavBarIconColor $color={fontColor} />
           </Link>
         </Col>
         <Col>
@@ -174,7 +172,7 @@ const NavBar: FC<MenuSliderProps> = (props) => {
             </Link>
           </div>
           <div className="mobile-menu" onClick={() => setOpenMenu(true)}>
-            <HamburgurColor color={fontColor} />
+            <HamburgurColor $color={fontColor} />
           </div>
         </Col>
       </NavBarRow>
