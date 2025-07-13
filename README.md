@@ -18,12 +18,6 @@ This project demonstrates how to build and deploy a decentralized React applicat
 - 🔧 TypeScript 5.3+ support
 - 🌐 Decentralized hosting ready
 
-### Clone Project
-
-```
-$ git clone https://github.com/Armakuji/decentralise-portfolio-nextjs.git
-```
-
 ### Prerequisites
 
 - **Node.js**: 18.17.0 or higher (recommended: Node.js 20+)
@@ -33,7 +27,7 @@ $ git clone https://github.com/Armakuji/decentralise-portfolio-nextjs.git
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Armakuji/decentralise-portfolio-nextjs.git
+git clone https://github.com/Armakuji/Decentralize-portfolio-nextjs.git
 cd decentralise-portfolio-nextjs
 ```
 
