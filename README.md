@@ -8,7 +8,7 @@ https://nitipon.eth.link/
 
 This modern portfolio application is built with **Next.js 14** and **React 18**, optimized for performance and compatibility with **Node.js 20+**. It features server-side rendering, static site generation, and is designed for decentralized hosting.
 
-This project demonstrates how to build and deploy a decentralized React application on IPFS using [Vercel](https://vercel.com/) for hosting and [Ethereum Name Service](https://ens.domains/) for decentralized domain naming.
+This project demonstrates how to build and deploy a decentralized React application on IPFS using [Pinata](https://pinata.cloud) for hosting files as IPFS hashes and [Ethereum Name Service](https://ens.domains/) for decentralized domain naming.
 
 ### Features
 - ⚡ Next.js 14 with React 18
