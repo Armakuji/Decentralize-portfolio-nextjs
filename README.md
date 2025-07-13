@@ -8,7 +8,7 @@ https://nitipon.eth.link/
 
 This portfolio app used nextjs because it's a static website. It's suitable with nextjs ( Server-side Rendering ) more than create-react-app.
 
-This portfolio is used to learn to build and host decentralised React App on IPFS by using [Fleek](https://fleek.co/) to host and using [Ethereum Name Service](https://ens.domains/) to provide decentralised naming.
+This portfolio is used to learn to build and host decentralised React App on IPFS by using [Vercel](https://vercel.com/) to host and using [Ethereum Name Service](https://ens.domains/) to provide decentralised naming.
 
 ### Clone Project
 
