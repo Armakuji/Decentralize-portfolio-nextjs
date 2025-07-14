@@ -5,6 +5,11 @@ export interface ExperienceDetailType {
 
 export const experienceList = [
   {
+    title:
+      "Backend (Golang, NestJS), Frontend (React-Native, Next.js), Smart Contract (Solidity)",
+    description: "TokenX Project | Software Engineer (Full-Time)",
+  },
+  {
     title: "Make a contribution to Uniswap-interface",
     description:
       "Fix a bug : The Path router should be displayed as a dot rather than a square",

@@ -142,12 +142,18 @@ const NavBar: FC<MenuSliderProps> = (props) => {
       $backgroundColor={backgroundColor}
     >
       <NavBarRow>
-        <Col>
+        <Col
+          style={{
+            flex: "0 0 auto",
+            display: "flex",
+            justifyContent: "flex-start",
+          }}
+        >
           <Link to="intro" spy={true} smooth={true} duration={scrollDuration}>
             <NavBarIconColor $color={fontColor} />
           </Link>
         </Col>
-        <Col>
+        <Col style={{ flex: "1", display: "flex", justifyContent: "flex-end" }}>
           <div className="menu">
             <Link to="about" spy={true} smooth={true} duration={scrollDuration}>
               <div className="sub-menu">About</div>

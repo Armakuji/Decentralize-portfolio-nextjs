@@ -20,7 +20,7 @@ const ExperienceCard = styled(Card)`
   width: 95%;
   height: 100%;
   border-radius: 15px;
-  background: #282a36;
+  background: #282a36 !important;
   box-shadow: 1px 1px 15px #282a36;
   border: none;
 `;

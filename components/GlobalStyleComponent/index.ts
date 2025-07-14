@@ -65,9 +65,11 @@ export const Divider = styled.div`
 
 export const IconSpace = styled.div`
   align-items: center;
-  display: inline-flex;
+  display: flex;
 
   svg {
+    flex: 0 0 auto;
+    min-width: 30px;
     padding-right: 0.5em;
   }
 `;

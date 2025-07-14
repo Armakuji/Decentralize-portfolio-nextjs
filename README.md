@@ -27,7 +27,7 @@ This project demonstrates how to build and deploy a decentralized React applicat
 
 1. **Clone the repository**
 ```bash
-git clone https://github.com/Armakuji/Decentralize-portfolio-nextjs.git
+git clone https://github.com/Armakuji/decentralize-portfolio-nextjs.git
 cd decentralise-portfolio-nextjs
 ```
 

@@ -98,14 +98,16 @@ const Experience = () => {
               <div>
                 &ldquo; My name is{" "}
                 <label className="bold sub-title">Nitipon Chingthongchai</label>{" "}
-                I&apos;m a software engineer. I like to analyze, solve problems,
-                and research new technologies. So I really like coding.
+                I&apos;m a software engineer specializing in{" "}
+                <strong>Golang</strong>, <strong>TypeScript</strong>, and{" "}
+                <strong>Solidity</strong>. I build full-stack applications with
+                React-Native, Next.js, and NestJS.
               </div>
               <br />
               <div>
-                I like to create beautiful things on the Web. And I&apos;m
-                currently learning about Ethereum smart contracts, Blockchain,
-                and Decentralized Finance. &rdquo;
+                I have professional experience at <strong>TokenX</strong> and{" "}
+                <strong>Siam Commercial Bank</strong>. I&apos;m passionate about
+                Web3, DeFi, and creating beautiful digital experiences. &rdquo;
               </div>
             </div>
           </FadeInContainer>

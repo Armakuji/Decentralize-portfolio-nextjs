@@ -51,7 +51,8 @@ const ContractDetail = styled.div`
     width: 3em;
     height: 3em;
 
-    path {
+    path,
+    polyline {
       stroke: #50fa7b;
       fill: #50fa7b;
     }

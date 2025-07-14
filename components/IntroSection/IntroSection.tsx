@@ -27,7 +27,8 @@ const IntroSection = () => {
                 </h1>
                 <h2>Software Engineer 🧑‍💻</h2>
                 <Text className="sub-detail">
-                  I am a software engineer with a focus on the frontend
+                  Full stack developer passionate about web3 • Building with
+                  heart • Fueled by coffee ☕
                 </Text>
               </LeftCol>
               <RightCol>
